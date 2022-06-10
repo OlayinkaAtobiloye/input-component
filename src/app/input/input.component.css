@@ -1,0 +1,51 @@
+:host{
+  margin-bottom: 32px;
+}
+
+.input,
+.input:hover {
+  border: 1px solid #828282;
+  border-radius: 8px;
+  height: 56px;
+  width: 200px;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.input:focus {
+  border: 1px solid #2962ff;
+  outline: none;
+}
+
+.input:disabled {
+  border: 1px solid #e0e0e0;
+  background: #f2f2f2;
+}
+
+label {
+  font-family: Noto Sans JP;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #333333;
+  display: block;
+  margin-bottom: 8px;
+}
+
+p {
+  font-family: Noto Sans JP;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #828282;
+}
+
+
+.tag{
+    font-family: Ubuntu Mono;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+color: #333333;
+margin-bottom: 16px;
+}

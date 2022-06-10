@@ -1,0 +1,14 @@
+<p class="tag"><ng-content></ng-content></p>
+<label>Label</label>
+<textarea [rows]="row" *ngIf="multiline" class="input"></textarea>
+<input 
+[disabled]="disabled"
+*ngIf="!multiline"
+placeholder={{value}} [ngStyle]="{
+    'color': error ? '#D32F2F' : '#828282',
+    'border-color': error ? '#D32F2F' : '#828282',
+    'width': fullWidth ? '100%' : '150px'
+}" class="input"
+[style.height]="size == 'sm' ? '36px' : '48px'" 
+/>
+<p [style.color]="error ? '#D32F2F' : '#828282'" *ngIf="helpertext">{{helpertext}}</p>
